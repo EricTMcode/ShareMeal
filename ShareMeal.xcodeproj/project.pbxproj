@@ -11,6 +11,12 @@
 		07C67BC62AE69A5C00490C10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C67BC52AE69A5C00490C10 /* ContentView.swift */; };
 		07C67BC82AE69A5D00490C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C67BC72AE69A5D00490C10 /* Assets.xcassets */; };
 		07C67BCB2AE69A5D00490C10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C67BCA2AE69A5D00490C10 /* Preview Assets.xcassets */; };
+		07C67BD22AE69AA800490C10 /* FoodBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C67BD12AE69AA700490C10 /* FoodBank.swift */; };
+		07C67BD42AE69B4C00490C10 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C67BD32AE69B4C00490C10 /* DataController.swift */; };
+		07C67BD62AE69D0500490C10 /* EnterLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C67BD52AE69D0500490C10 /* EnterLocationView.swift */; };
+		07C67BD82AE69DEE00490C10 /* SelectFoodbankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C67BD72AE69DEE00490C10 /* SelectFoodbankView.swift */; };
+		07C67BDA2AE7E6CC00490C10 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C67BD92AE7E6CC00490C10 /* HomeView.swift */; };
+		07C67BDC2AE7EE6600490C10 /* DropOffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C67BDB2AE7EE6600490C10 /* DropOffView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		07C67BC52AE69A5C00490C10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		07C67BC72AE69A5D00490C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07C67BCA2AE69A5D00490C10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07C67BD12AE69AA700490C10 /* FoodBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodBank.swift; sourceTree = "<group>"; };
+		07C67BD32AE69B4C00490C10 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		07C67BD52AE69D0500490C10 /* EnterLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterLocationView.swift; sourceTree = "<group>"; };
+		07C67BD72AE69DEE00490C10 /* SelectFoodbankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFoodbankView.swift; sourceTree = "<group>"; };
+		07C67BD92AE7E6CC00490C10 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		07C67BDB2AE7EE6600490C10 /* DropOffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropOffView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				07C67BC32AE69A5C00490C10 /* ShareMealApp.swift */,
+				07C67BD52AE69D0500490C10 /* EnterLocationView.swift */,
+				07C67BD72AE69DEE00490C10 /* SelectFoodbankView.swift */,
 				07C67BC52AE69A5C00490C10 /* ContentView.swift */,
+				07C67BD12AE69AA700490C10 /* FoodBank.swift */,
+				07C67BDB2AE7EE6600490C10 /* DropOffView.swift */,
+				07C67BD92AE7E6CC00490C10 /* HomeView.swift */,
+				07C67BD32AE69B4C00490C10 /* DataController.swift */,
 				07C67BC72AE69A5D00490C10 /* Assets.xcassets */,
 				07C67BC92AE69A5D00490C10 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C67BD22AE69AA800490C10 /* FoodBank.swift in Sources */,
+				07C67BDA2AE7E6CC00490C10 /* HomeView.swift in Sources */,
+				07C67BD42AE69B4C00490C10 /* DataController.swift in Sources */,
 				07C67BC62AE69A5C00490C10 /* ContentView.swift in Sources */,
 				07C67BC42AE69A5C00490C10 /* ShareMealApp.swift in Sources */,
+				07C67BD82AE69DEE00490C10 /* SelectFoodbankView.swift in Sources */,
+				07C67BD62AE69D0500490C10 /* EnterLocationView.swift in Sources */,
+				07C67BDC2AE7EE6600490C10 /* DropOffView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

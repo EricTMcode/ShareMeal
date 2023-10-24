@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct ShareMealApp: App {
+    @State private var dataController = DataController()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(dataController)
         }
     }
 }

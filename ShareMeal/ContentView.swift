@@ -8,14 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(DataController.self) var dataController
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        if let selectedFoodbank = dataController.selectedFoodbank {
+            TabView {
+                HomeView(foodbank: selectedFoodbank)
+                    .tabItem {
+                        Label("Home", systemImage: "house")
+                    }
+                
+                Text("My Foodbank")
+                    .tabItem {
+                        Label("My Foodbank", systemImage: "building.2")
+                    }
+                DropOffView(foodbank: selectedFoodbank)
+                    .tabItem {
+                        Label("Drop-off Points", systemImage: "basket")
+                    }
+            }
+        } else {
+            EnterLocationView()
         }
-        .padding()
     }
 }
 
